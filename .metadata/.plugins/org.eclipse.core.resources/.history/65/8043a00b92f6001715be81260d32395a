@@ -1,0 +1,10 @@
+package tests;
+
+public class LoginTestDDT {
+	
+	public String[][] getData()
+	{
+		return Utilities.Excel.get("D:\\Selenium\\UserLogin.xls");
+	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginCucumberTest" project="SeleniumTraining" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumbertests.LoginCucumberTest" time="1.58">
+    <testsuite name="Feature: User Login" time="1.58">
+      <testsuite name="Scenario: User enter should be able login with right credentials" time="1.58">
+        <testcase name="Given login page opens" classname="Scenario: User enter should be able login with right credentials" time="1.462"/>
+        <testcase name="When right Credentials" classname="Scenario: User enter should be able login with right credentials" time="0.108"/>
+        <testcase name="Then successfully logged in" classname="Scenario: User enter should be able login with right credentials" time="0.009"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,570 @@
+!SESSION 2018-02-15 00:00:58.001 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file D:\workspace_eclipse\.metadata\.bak_0.log
+Created Time: 2018-02-18 15:58:35.143
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-18 15:58:35.156
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-18 15:58:35.172
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-18 15:58:35.425
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\MavenTest\target\test-classes D:\workspace_eclipse\MavenTest\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar D:\jar\apache-log4j-2.10.0-bin\log4j-api-2.10.0.jar D:\jar\apache-log4j-2.10.0-bin\log4j-core-2.10.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 18433 -protocol json -d D:\workspace_eclipse\MavenTest\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse--1430738084\testng-customsuite.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\MavenTest\target\test-classes:D:\workspace_eclipse\MavenTest\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\jar\apache-log4j-2.10.0-bin\log4j-api-2.10.0.jar:D:\jar\apache-log4j-2.10.0-bin\log4j-core-2.10.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 18433 -protocol json -d D:\workspace_eclipse\MavenTest\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse--1430738084\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-18 16:12:10.080
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-18 16:12:10.134
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-18 16:12:10.682
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\MavenTest\target\test-classes D:\workspace_eclipse\MavenTest\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar D:\jar\apache-log4j-2.10.0-bin\log4j-api-2.10.0.jar D:\jar\apache-log4j-2.10.0-bin\log4j-core-2.10.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 18529 -protocol json -d D:\workspace_eclipse\MavenTest\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse-247319314\testng-customsuite.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\MavenTest\target\test-classes:D:\workspace_eclipse\MavenTest\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\jar\apache-log4j-2.10.0-bin\log4j-api-2.10.0.jar:D:\jar\apache-log4j-2.10.0-bin\log4j-core-2.10.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar:C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar org.testng.remote.RemoteTestNG -serport 18529 -protocol json -d D:\workspace_eclipse\MavenTest\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse-247319314\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-18 17:54:22.933
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-18 17:54:23.060
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-18 17:54:23.966
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\MavenTest\target\test-classes D:\workspace_eclipse\MavenTest\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar D:\jar\apache-log4j-2.10.0-bin\log4j-api-2.10.0.jar D:\jar\apache-log4j-2.10.0-bin\log4j-core-2.10.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 19854 -protocol json -d D:\workspace_eclipse\MavenTest\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse-423171161\testng-customsuite.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\MavenTest\target\test-classes:D:\workspace_eclipse\MavenTest\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\jar\apache-log4j-2.10.0-bin\log4j-api-2.10.0.jar:D:\jar\apache-log4j-2.10.0-bin\log4j-core-2.10.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar:C:\Users\selva\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar org.testng.remote.RemoteTestNG -serport 19854 -protocol json -d D:\workspace_eclipse\MavenTest\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse-423171161\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-18 19:42:55.893
+!MESSAGE Launch configuration Test1 references closed project MavenTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Test1 references closed project MavenTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-18 19:42:55.894
+!MESSAGE Launch configuration Test1 references closed project MavenTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-18 19:42:55.945
+!MESSAGE Launch configuration Test1 references closed project MavenTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Test1 references closed project MavenTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-18 19:42:55.946
+!MESSAGE Launch configuration Test1 references closed project MavenTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-18 19:42:55.991
+!MESSAGE Launch configuration Test1 references closed project MavenTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Test1 references closed project MavenTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-18 19:42:55.992
+!MESSAGE Launch configuration Test1 references closed project MavenTest
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 14:12:08.983
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 22284 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse-815721646\testng-customsuite.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 22284 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse-815721646\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 14:13:13.342
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 22301 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 22301 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 14:40:01.565
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 22568 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 22568 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 14:40:27.573
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 22572 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 22572 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 14:42:14.356
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 22617 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 22617 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:17:22.646
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 22884 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 22884 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:21:01.857
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23039 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23039 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:24:21.655
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23109 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23109 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:24:58.082
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23115 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23115 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:26:41.894
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23149 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23149 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:26:53.158
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23160 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23160 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:27:15.726
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23169 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23169 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:29:58.089
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23248 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23248 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:31:17.823
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23270 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23270 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:33:26.639
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23294 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23294 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:34:05.332
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23304 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23304 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:38:30.314
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23364 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23364 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:39:22.029
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23380 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23380 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:42:22.969
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23441 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23441 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:42:31.959
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23443 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse--944780481\testng-customsuite.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23443 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output C:\Users\selva\AppData\Local\Temp\testng-eclipse--944780481\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:43:42.511
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23465 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23465 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:49:29.119
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23754 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23754 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:50:13.309
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23768 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23768 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 15:54:20.928
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23844 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23844 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:01:49.660
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23903 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23903 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:07:08.044
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 23989 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 23989 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:08:13.413
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24005 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 24005 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:08:26.343
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24010 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 24010 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:10:37.786
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24020 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 24020 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:11:01.712
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:11:07.976
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24026 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 24026 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:12:04.469
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24033 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 24033 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:12:57.002
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\Hackerrank\bin C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24047 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\Hackerrank\bin:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 24047 -protocol json -d D:\workspace_eclipse\Hackerrank\test-output D:\workspace_eclipse\Hackerrank\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:16:22.405
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:27:51.959
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:27:52.027
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:27:52.361
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\InRhythm\target\test-classes D:\workspace_eclipse\InRhythm\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24270 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\InRhythm\target\test-classes:D:\workspace_eclipse\InRhythm\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 24270 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:28:35.157
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:28:35.173
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:28:35.354
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\InRhythm\target\test-classes D:\workspace_eclipse\InRhythm\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24278 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\InRhythm\target\test-classes:D:\workspace_eclipse\InRhythm\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 24278 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:29:16.766
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:29:16.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:29:16.958
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\InRhythm\target\test-classes D:\workspace_eclipse\InRhythm\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24290 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\InRhythm\target\test-classes:D:\workspace_eclipse\InRhythm\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 24290 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:40:56.104
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:40:56.230
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:40:56.518
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\InRhythm\target\test-classes D:\workspace_eclipse\InRhythm\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24584 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\InRhythm\target\test-classes:D:\workspace_eclipse\InRhythm\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 24584 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:41:32.270
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-19 16:41:32.285
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-19 16:41:32.469
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar D:\workspace_eclipse\InRhythm\target\test-classes D:\workspace_eclipse\InRhythm\target\classes C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 24593 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+java -ea -classpath C:\Users\selva\eclipse\java-neon\eclipse\configuration\org.eclipse.osgi\614\0\.cp\lib\testng-remote.jar:D:\workspace_eclipse\InRhythm\target\test-classes:D:\workspace_eclipse\InRhythm\target\classes:C:\Users\selva\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\selva\.p2\pool\plugins\org.testng_6.13.1.r201712040515.jar:C:\Users\selva\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar:C:\Users\selva\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\selva\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\selva\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar:C:\Users\selva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\selva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar org.testng.remote.RemoteTestNG -serport 24593 -protocol json -d D:\workspace_eclipse\InRhythm\test-output D:\workspace_eclipse\InRhythm\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-20 16:18:49.582
+!MESSAGE Launch configuration InRhythm_testng.xml references closed project InRhythm
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration InRhythm_testng.xml references closed project InRhythm
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-20 16:18:49.624
+!MESSAGE Launch configuration InRhythm_testng.xml references closed project InRhythm
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-20 16:18:49.722
+!MESSAGE Launch configuration InRhythm_testng.xml references closed project InRhythm
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration InRhythm_testng.xml references closed project InRhythm
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-20 16:18:49.723
+!MESSAGE Launch configuration InRhythm_testng.xml references closed project InRhythm
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-20 16:18:49.898
+!MESSAGE Launch configuration InRhythm_testng.xml references closed project InRhythm
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration InRhythm_testng.xml references closed project InRhythm
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2161)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-20 16:18:49.899
+!MESSAGE Launch configuration InRhythm_testng.xml references closed project InRhythm
+
+!ENTRY org.eclipse.core.resources 4 567 2018-02-21 10:14:02.041
+!MESSAGE The project description file (.project) for 'Agile-GEDCOM-project-master.zip_expanded' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2018-02-21 10:14:02.428
+!MESSAGE The project description file (.project) for 'Agile-GEDCOM-project-master.zip_expanded' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.

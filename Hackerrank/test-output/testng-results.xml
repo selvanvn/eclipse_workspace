@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="707" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:13:00Z">
+    <groups>
+    </groups>
+    <test name="GivenExampleTest" duration-ms="100" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@396a51ab]" name="intialize" is-config="true" duration-ms="24" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@396a51ab]" name="testMethod" duration-ms="24" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The cow jumped over the moon.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jumped]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- GivenExampleTest -->
+    <test name="NullCaseTest" duration-ms="14" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@475530b9]" name="intialize" is-config="true" duration-ms="1" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@475530b9]" name="testMethod" duration-ms="5" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- NullCaseTest -->
+    <test name="SpecialCharacterEndTest" duration-ms="16" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@d8355a8]" name="intialize" is-config="true" duration-ms="0" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@d8355a8]" name="testMethod" duration-ms="5" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Normally, I don’t mind about that. When the sun is shining, I sit on my favourite blade of grass and play music for everyone to listen to. I have lots of friends, and together we’ve formed an orchestra.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[favourite]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- SpecialCharacterEndTest -->
+    <test name="SameLengthWordsTest" duration-ms="11" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@29774679]" name="intialize" is-config="true" duration-ms="1" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@29774679]" name="testMethod" duration-ms="4" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I am Naveen, I am Naveen again]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- SameLengthWordsTest -->
+    <test name="ApostropheTest" duration-ms="13" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@59f99ea]" name="intialize" is-config="true" duration-ms="1" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@59f99ea]" name="testMethod" duration-ms="5" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Elephant's were running.One Elephant fell]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Elephants]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- ApostropheTest -->
+    <test name="OneWordTest" duration-ms="12" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@1e88b3c]" name="intialize" is-config="true" duration-ms="0" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@1e88b3c]" name="testMethod" duration-ms="4" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InRhythm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InRhythm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- OneWordTest -->
+    <test name="OnlyNumbersTest" duration-ms="9" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@604ed9f0]" name="intialize" is-config="true" duration-ms="1" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@604ed9f0]" name="testMethod" duration-ms="3" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345 45 86 95]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- OnlyNumbersTest -->
+    <test name="LinesTest" duration-ms="16" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:12:59Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@5622fdf]" name="intialize" is-config="true" duration-ms="1" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@5622fdf]" name="testMethod" duration-ms="4" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is the First Line  Second Line  LargestWord line]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LargestWord]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- LinesTest -->
+    <test name="SpecialCharacters" duration-ms="19" started-at="2018-02-19T21:12:59Z" finished-at="2018-02-19T21:13:00Z">
+      <class name="test.LongestStringTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.LongestStringTest@343f4d3d]" name="intialize" is-config="true" duration-ms="2" started-at="2018-02-19T16:12:59Z" finished-at="2018-02-19T16:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String, java.lang.Integer)[pri:0, instance:test.LongestStringTest@343f4d3d]" name="testMethod" duration-ms="4" started-at="2018-02-19T16:13:00Z" finished-at="2018-02-19T16:13:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$$%%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- test.LongestStringTest -->
+    </test> <!-- SpecialCharacters -->
+  </suite> <!-- Suite -->
+</testng-results>

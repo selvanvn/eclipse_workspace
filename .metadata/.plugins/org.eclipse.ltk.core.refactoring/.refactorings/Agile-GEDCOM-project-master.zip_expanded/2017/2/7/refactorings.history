@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;Agile/src/agile&apos;&#x0D;&#x0A;- Original project: &apos;Agile-GEDCOM-project-master.zip_expanded&apos;&#x0D;&#x0A;- Destination element: &apos;Agile/src/agile&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Family.java&#x0D;&#x0A;     Individual.java&#x0D;&#x0A;     parser.java&#x0D;&#x0A;     reader.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="=Agile/src&lt;agile" element1="Agile-GEDCOM-project-master/Family.java" element2="Agile-GEDCOM-project-master/Individual.java" element3="Agile-GEDCOM-project-master/parser.java" element4="Agile-GEDCOM-project-master/reader.java" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1486879896342" units="0" version="1.0"/>
+</session>

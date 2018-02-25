@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="loginCucumberTest" project="SeleniumTraining" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumbertests.loginCucumberTest" time="0.001">
+    <testsuite name="Feature: User Login" time="0.001">
+      <testcase name="Scenario: User enter should be able login with right credentials." classname="Scenario: User enter should be able login with right credentials." time="0.001"/>
+    </testsuite>
+  </testsuite>
+</testrun>

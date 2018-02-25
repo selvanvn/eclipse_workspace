@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="IgnoreCaseTest(failed)">
+    <parameter name="sentence" value="GFDFD dfjhd asasd HDHDHD"/>
+    <parameter name="longestWord" value=""/>
+    <parameter name="longestWordLength" value="0"/>
+    <classes>
+      <class name="testexercise.LongestStringTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="testMethod" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testexercise.LongestStringTest -->
+    </classes>
+  </test> <!-- IgnoreCaseTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

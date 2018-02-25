@@ -1,0 +1,19 @@
+package test;
+
+import java.util.AbstractMap;
+
+public class LongestString {
+	
+	String sentence = null;
+	
+	public LongestString(String sentence) {
+		this.sentence = sentence;
+	}
+	
+	public SimpleEntry<Integer, String>
+	
+	public static void main(String args[]){
+		
+	}
+
+}

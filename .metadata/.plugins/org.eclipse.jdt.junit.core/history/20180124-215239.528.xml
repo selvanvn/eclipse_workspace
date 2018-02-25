@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="loginCucumberTest" project="SeleniumTraining" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="cucumbertests.loginCucumberTest" time="0.001">
+    <testcase name="initializationError" classname="cucumbertests.loginCucumberTest" time="0.001">
+      <error>java.lang.NoClassDefFoundError: gherkin/formatter/Formatter&#13;
+	at java.lang.ClassLoader.defineClass1(Native Method)&#13;
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)&#13;
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)&#13;
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)&#13;
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)&#13;
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)&#13;
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)&#13;
+	at java.security.AccessController.doPrivileged(Native Method)&#13;
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)&#13;
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)&#13;
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)&#13;
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)&#13;
+	at cucumber.runtime.formatter.PluginFactory$1.&lt;init&gt;(PluginFactory.java:53)&#13;
+	at cucumber.runtime.formatter.PluginFactory.&lt;clinit&gt;(PluginFactory.java:52)&#13;
+	at cucumber.runtime.RuntimeOptions.&lt;init&gt;(RuntimeOptions.java:70)&#13;
+	at cucumber.runtime.RuntimeOptionsFactory.create(RuntimeOptionsFactory.java:25)&#13;
+	at cucumber.api.junit.Cucumber.&lt;init&gt;(Cucumber.java:56)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)&#13;
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)&#13;
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:84)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:70)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:43)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:444)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: java.lang.ClassNotFoundException: gherkin.formatter.Formatter&#13;
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)&#13;
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)&#13;
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)&#13;
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)&#13;
+	... 34 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

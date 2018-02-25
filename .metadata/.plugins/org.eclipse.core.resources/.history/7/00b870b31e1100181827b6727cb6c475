@@ -1,0 +1,13 @@
+package utilities;
+
+public class Resources {
+
+	public String postURL(){
+		String url = "/maps/api/place/add/json";
+		return url;
+	}
+	public String deleteURL(){
+		String url="/maps/api/place/delete/json";
+		return url;
+	}
+}

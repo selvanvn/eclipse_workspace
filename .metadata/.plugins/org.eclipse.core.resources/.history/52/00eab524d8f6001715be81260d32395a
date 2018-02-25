@@ -1,0 +1,22 @@
+package tests;
+
+import org.openqa.selenium.WebDriver;
+
+public class Expedia {
+	WebDriver driver;
+	String browserType ="Chrome";
+
+	public void bookHotel()
+	{
+		
+	}
+	public void setup()
+	{
+	driver= Utilities.setup.intialize(browserType);
+	driver.get("https://www.expedia.com/");
+	}
+	public void tearDown()
+	{
+		driver.quit();
+	}
+}

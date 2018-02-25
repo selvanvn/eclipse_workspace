@@ -1,0 +1,42 @@
+package Day6;
+
+import java.util.Scanner;
+
+public class Solution {
+	
+	String St;
+	public String getSring()
+	{
+		return this.St;
+	}
+	public void setString(String newS)
+	{
+	this.St= newS;
+	}
+public static void main(String args[])
+{
+	Solution  S = new Solution();
+	Scanner scan = new Scanner(System.in);
+	int t=scan.nextInt();
+	scan.nextLine();
+	//scan.skip("[\r\n]+");
+	for(int j=0;j<t;j++)
+	{
+		String myString =scan.nextLine();
+		char[] myCharArray = myString.toCharArray();
+		for(int i = 0; i < myString.length(); i+=2){
+			
+		    // Print each sequential character on the same line
+				System.out.print(myCharArray[i]);
+		}
+		System.out.println(" ");
+				for(int k=1; k < myString.length(); k+=2)
+				{
+			System.out.print(myCharArray[k]);	
+			}
+			
+	}
+}
+	
+	}
+

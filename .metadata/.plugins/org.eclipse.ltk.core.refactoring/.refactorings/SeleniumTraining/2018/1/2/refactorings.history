@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeleniumTraining/src/sdetutest&apos; to &apos;sdetutest.xml&apos;" description="Rename resource &apos;sdetutest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/sdetutest" name="sdetutest.xml" stamp="1515286048542" updateReferences="true"/>
+</session>

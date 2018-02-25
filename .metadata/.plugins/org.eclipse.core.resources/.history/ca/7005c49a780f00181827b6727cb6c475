@@ -1,0 +1,11 @@
+package initial;
+
+import org.testng.annotations.Test;
+
+public class BasicPostDelete {
+
+	@Test
+	public void method1(){
+		
+	}
+}

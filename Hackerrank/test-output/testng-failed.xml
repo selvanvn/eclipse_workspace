@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ApostropheTest(failed)">
+    <parameter name="sentence" value="Elephant&#039;s were running.One Elephant fell"/>
+    <parameter name="longestWord" value="Elephants"/>
+    <parameter name="longestWordLength" value="10"/>
+    <classes>
+      <class name="test.LongestStringTest">
+        <methods>
+          <include name="testMethod" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- test.LongestStringTest -->
+    </classes>
+  </test> <!-- ApostropheTest(failed) -->
+  <test name="OnlyNumbersTest(failed)">
+    <parameter name="sentence" value="12345 45 86 95"/>
+    <parameter name="longestWord" value="12345"/>
+    <parameter name="longestWordLength" value="5"/>
+    <classes>
+      <class name="test.LongestStringTest">
+        <methods>
+          <include name="testMethod" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- test.LongestStringTest -->
+    </classes>
+  </test> <!-- OnlyNumbersTest(failed) -->
+  <test name="SpecialCharacters(failed)">
+    <parameter name="sentence" value="@#$$%%"/>
+    <parameter name="longestWord" value="@#$$%%"/>
+    <parameter name="longestWordLength" value="6"/>
+    <classes>
+      <class name="test.LongestStringTest">
+        <methods>
+          <include name="testMethod" invocation-numbers="0"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- test.LongestStringTest -->
+    </classes>
+  </test> <!-- SpecialCharacters(failed) -->
+</suite> <!-- Failed suite [Suite] -->

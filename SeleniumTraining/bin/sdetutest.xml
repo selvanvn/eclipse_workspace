@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="ATAG">
+    <classes>
+      <class name="smoketest.AtagTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="LOGIN">
+    <classes>
+      <class name="smoketest.LoginTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

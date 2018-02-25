@@ -1,0 +1,51 @@
+package initial;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import utilities.Resources;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
+import java.util.Arrays;
+
+import org.testng.annotations.Test;
+
+public class Basics {
+
+	@Test
+	public void test1()
+	{
+		// TODO Auto-generated method stub
+
+		RestAssured.baseURI = "https://maps.googleapis.com";
+
+		Response rs=given().param("location", "-33.8669710,151.1958750").param("radius", "500")
+				.param("key", "AIzaSyBTX_Zxsab8G5KnG49T6irm1t96bxYbals").
+				when().
+				get("/maps/api/place/nearbysearch/json").
+				then().
+				assertThat().
+				statusCode(200).
+				and().
+				contentType(ContentType.JSON).and().
+				//body("results[1].geometry.location.lat",equalTo("-33.867558"));
+				body("results[1].place_id",equalTo("ChIJq6qq6jauEmsR46KYci7M5Jc")).and().
+				header("Server",equalTo("scaffolding on HTTPServer2")).and().
+				extract().response();
+		JsonPath js=Resources.rawToJson(rs);
+		int resultSize=js.get("results.size()");
+		String[] names=new String[resultSize];
+		for(int i=0;i<resultSize;i++){
+			//System.out.println(js.get("results["+i+"].name"));
+			names[i]=js.get("results["+i+"].name");			
+		}
+		System.out.println(Arrays.toString(names));
+			/*for(String e : names)	{
+				System.out.print((e));
+			}*/
+	}
+
+}

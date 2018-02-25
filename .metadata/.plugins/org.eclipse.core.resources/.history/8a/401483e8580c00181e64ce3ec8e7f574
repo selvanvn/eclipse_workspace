@@ -1,0 +1,31 @@
+package initial;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+public class Basics {
+
+	@Test
+	public void test1()
+	{
+		// TODO Auto-generated method stub
+
+		RestAssured.baseURI = "https://maps.googleapis.com";
+
+		given().param("location", "-33.8669710,151.1958750").param("radius", "500")
+				.param("key", "AIzaSyBTX_Zxsab8G5KnG49T6irm1t96bxYbals").
+				when().
+				get("/maps/api/place/nearbysearch/json").
+				then().
+				assertThat().
+				statusCode(200).
+				and().
+				contentType(ContentType.JSON);
+
+	}
+
+}

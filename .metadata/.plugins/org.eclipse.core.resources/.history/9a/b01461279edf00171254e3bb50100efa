@@ -1,0 +1,25 @@
+package Demo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Firefox {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://sdettraining.com/trguitransactions/accountmanagement.aspx");
+		driver.findElement(By.linkText("Create Account")).click();
+		driver.findElement(By.name("ctl00$MainContent$txtFirstName")).sendKeys("Selva");
+		driver.findElement(By.name("ctl00$MainContent$txtEmail")).sendKeys("guzzme@gail.com");
+		driver.findElement(By.name("ctl00$MainContent$txtHomePhone")).sendKeys("12345");
+		
+		//driver.close();
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package test;
+
+import java.util.AbstractMap.SimpleEntry;
+
+public class LongestString {
+	
+	String sentence = null;
+	
+	public LongestString(String sentence) {
+		this.sentence = sentence;
+	}
+	
+	public SimpleEntry<Integer, String> getLongestString() {
+		if(sentence == null) {
+			return null;
+		}
+		SimpleEntry<Integer, String> stringLength =new SimpleEntry<Integer, String>(0, "");
+		String [] words = sentence.replaceAll("\\.,", "").split(" ");
+		for(String word: words) {
+			if(word.length() > stringLength.getKey()) {
+				stringLength = new SimpleEntry<Integer, String>(word.length(), word);
+			}
+		}
+		return stringLength;
+	}
+	
+	public static void main(String args[]){
+		LongestString lString = new LongestString("The cow jumped over the moon.");
+		SimpleEntry<Integer, String> longestWord = lString.getLongestString();
+		System.out.println("The longest word is "+longestWord.getValue()+ " with length "+ longestWord.getKey());
+	}
+
+}

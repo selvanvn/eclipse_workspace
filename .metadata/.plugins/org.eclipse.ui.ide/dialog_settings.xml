@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Stevens\Sem 2\CS600\Code.zip"/>
+		<item value="D:\Stevens\Sem 2\CS600\alakshm1.zip"/>
+		<item value="D:\Stevens\Sem 2\CS555\Agile-GEDCOM-project-master"/>
+		<item value="D:\Stevens\Sem 2\CS555\Agile-GEDCOM-project-master\Agile_GEDCOM.zip"/>
+		<item value="D:\Stevens\Sem 2\CS555\Agile-GEDCOM-project-master.zip"/>
+		<item value="D:\Stevens\Sem 2\CS555\Agile-GEDCOM-project-master_project2.zip"/>
+		<item value="E:\CS520\bus_simulation"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="378" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="112" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1473431335783" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.buildship.ui.creationwizards"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
+			<item value="org.python.pydev.PythonCategory"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

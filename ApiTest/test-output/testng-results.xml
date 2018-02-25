@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12915" started-at="2018-02-15T22:48:53Z" finished-at="2018-02-15T22:49:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12915" started-at="2018-02-15T22:48:53Z" finished-at="2018-02-15T22:49:06Z">
+      <class name="initial.JiraApiTest1">
+        <test-method status="PASS" signature="intilaze()[pri:0, instance:initial.JiraApiTest1@4b9e13df]" name="intilaze" is-config="true" duration-ms="46" started-at="2018-02-15T17:48:53Z" finished-at="2018-02-15T17:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilaze -->
+        <test-method status="PASS" signature="addIssue()[pri:0, instance:initial.JiraApiTest1@4b9e13df]" name="addIssue" duration-ms="10186" started-at="2018-02-15T17:48:53Z" finished-at="2018-02-15T17:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIssue -->
+        <test-method status="PASS" signature="addComment()[pri:1, instance:initial.JiraApiTest1@4b9e13df]" name="addComment" duration-ms="1578" started-at="2018-02-15T17:49:03Z" finished-at="2018-02-15T17:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method status="PASS" signature="updateComment()[pri:2, instance:initial.JiraApiTest1@4b9e13df]" name="updateComment" duration-ms="991" started-at="2018-02-15T17:49:05Z" finished-at="2018-02-15T17:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComment -->
+      </class> <!-- initial.JiraApiTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

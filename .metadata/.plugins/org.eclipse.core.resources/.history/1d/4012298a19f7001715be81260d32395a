@@ -1,0 +1,39 @@
+package tests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class Expedia {
+	WebDriver driver;
+	String browserType = "Chrome";
+	String destination = "New York, New York";
+	String checkIn = "01/18/2018";
+	String checkOut = "01/22/2018";
+	String peopleCount ="2";
+	
+	@Test
+	public void bookHotel() {
+		driver.findElement(By.id("tab-hotel-tab-hp")).click();
+		driver.findElement(By.id("hotel-destination-hp-hotel")).sendKeys(destination);
+		//Check
+		driver.findElement(By.id("hotel-checkin-hp-hotel")).sendKeys(checkIn);
+		driver.findElement(By.id("hotel-checkout-hp-hotel")).sendKeys(checkOut);
+		new Select(driver.findElement(By.xpath("//*[@id=\"gcw-hotel-form-hp-hotel\"]/div[4]/div[4]/label/select"))).selectByValue(peopleCount);
+		driver.findElement(By.xpath("//*[@id=\"gcw-hotel-form-hp-hotel\"]/div[9]/label/button")).click();
+	}
+
+	@BeforeMethod
+	public void setup() {
+		driver = Utilities.setup.intialize(browserType);
+		driver.get("https://www.expedia.com/");
+	}
+
+	@AfterMethod
+	public void tearDown() {
+		//driver.quit();
+	}
+}

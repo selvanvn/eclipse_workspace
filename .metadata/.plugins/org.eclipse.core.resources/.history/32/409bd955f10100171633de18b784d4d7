@@ -1,0 +1,12 @@
+package hw6;
+
+import java.time.LocalDate;
+public class Solution {
+
+	//LocalDate target1 = LocalDate.now();
+	public static void main(String args[])
+	{
+		LocalDate target1 = LocalDate.now();
+		System.out.println(target1);
+	}
+}

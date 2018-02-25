@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Testing GivenExample">
+	<parameter name="sentence" value="The cow jumped over the moon."/>
+	<parameter name="longestWord" value="jumped"/>
+	<parameter name="longestWordLength" value="6"/>
+  	<classes>
+      <class name="test.LongestStringTest"/>
+    </classes>
+    </test>
+    <test name="Testing NullCase">
+	<parameter name="sentence" value=""/>
+	<parameter name="longestWord" value=""/>
+	<parameter name="longestWordLength" value="0"/>
+  	<classes>
+      <class name="test.LongestStringTest"/>
+    </classes>
+    </test>
+    <test name="Testing Example2">
+	<parameter name="sentence" value="The cowdsdsdd jumped over the moon."/>
+	<parameter name="longestWord" value="jumped"/>
+	<parameter name="longestWordLength" value="6"/>
+  	<classes>
+      <class name="test.LongestStringTest"/>
+    </classes>
+    </test>
+    <test name="Testing Example3">
+	<parameter name="sentence" value="The cowdsdsdd jumped over the moon."/>
+	<parameter name="longestWord" value="jumped"/>
+	<parameter name="longestWordLength" value="6"/>
+  	<classes>
+      <class name="test.LongestStringTest"/>
+    </classes>
+    </test>
+    
+</suite> <!-- Suite -->
